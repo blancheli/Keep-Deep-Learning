@@ -48,7 +48,7 @@ class imdb(object):
 
 	def _load_eval_set_idx(self):
 		# path_pre = 'channelVELO_TOP_0000_'
-		idxs = [i for in range(self.TRAIN_DATA_COUNT + 1, self.TOTAL_DATA_COUNT + 1)]
+		idxs = [i for i in range(self.TRAIN_DATA_COUNT + 1, self.TOTAL_DATA_COUNT + 1)]
 
 		return idxs
 
